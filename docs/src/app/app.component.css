@@ -1,0 +1,36 @@
+.edit {
+    background-color:indigo;
+}
+.video{
+    width:50vw;
+  
+}
+.head{
+    position: absolute;
+    left: 14%;
+    font-size: 3em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+    
+}
+.searchBox{
+margin: 20px 0;
+width:100%;
+
+}
+
+input{
+width: 100%;
+padding: 10px;
+
+}
+.box{
+ width: 100%;
+
+}
+#newbtn{
+    position: absolute;
+    width: 100%;
+    right: 0%;
+}

@@ -1,0 +1,60 @@
+<div class="head">
+    <h2>Daily Report</h2>
+</div>
+<br><br>
+<div class="container">
+<div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-4">
+	<div class="box">
+	  <div class="searchBox">
+		 <button id="newbtn" type="submit" class="btn btn-outline"  >
+		  <div class="d-flex flex-row">
+			<input (keyup)="onSubmit($event)"
+		    [(ngModel)]="searchValue" type="text"
+		    id="searchKey" class="form-control"
+		    placeholder="🔍Search Box                               ">
+		  </div>
+		</button>
+	  </div>
+  </div>
+    <br><br><Br>
+	<div *ngIf="condition; then block1; else block2">
+	</div>
+	<ng-template #block1>
+		<i class="fa fa-spinner fa-spin" aria-hidden="true">
+		</i> Searching your results for
+		<strong>{{prevText}}</strong>
+	</ng-template>
+	<ng-template #block2>
+		<h6>{{res_cnt}} Search Result Found
+		<span *ngFor="let lang of res_list">
+			<strong><a routerLink="single"> {{lang}},</a></strong></span>
+		</h6>
+	</ng-template>
+	</div>
+</div>
+</div>
+
+<br><br>
+<nav class="navbar navbar-light bg-white d-flex flex justify-sm-content-evenly">
+  <div class="container">
+    <a class="navbar-brand" routerLink="single">
+      
+    </a>
+    <a class="navbar-brand" routerLink="single">
+      Single Animal
+    </a>
+    <a class="navbar-brand" routerLink="group">
+      Groups
+    </a>
+    <a class="navbar-brand" routerLink="single">
+      
+    </a>
+  </div>
+</nav>
+
+
+<router-outlet></router-outlet>
+
+
