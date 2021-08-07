@@ -1,0 +1,192 @@
+.edit {
+    background-color:blueviolet;
+}
+.video{
+    width:45vw;
+    
+}
+.header{
+    background-color: rgb(17, 16, 16);
+    height:140px;
+}
+.switch{
+    border-radius: 40%;
+}
+
+.form1{
+    background-color: rgb(58, 48, 48);
+    color: blanchedalmond;
+}
+#text {
+    color: blanchedalmond;
+   
+}
+
+.form1{
+    background-color: rgb(58, 48, 48);
+    color: blanchedalmond;
+}
+#but1{
+   width: 200px;
+   border-radius: 42%;
+   height: 2em;
+   font-size: 2em;
+   background-color: red;
+   
+
+}
+#but2{
+   width: 200px;
+   border-radius: 42%;
+   height: 2em;
+   font-size: 2em;
+   background-color: gray;
+
+}
+#but3{
+   width: 200px;
+   border-radius: 42%;
+   height: 2em;
+   font-size: 2em;
+   background-color: gray;
+   
+
+
+}
+.footer {
+position:relative;
+width: 100%;
+background-color: rgb(255, 255, 255);
+}
+#pic {
+    width: 50px;
+    height: 50px;
+}
+#fut1{
+    position: absolute;
+    left: 14%;
+    bottom: 10%;
+}
+#fut2{
+    position: absolute;
+    left: 44%;
+    bottom: 10%;
+}
+#fut3{
+    position: absolute;
+    left: 74%;
+    bottom: 10%;
+}
+#div{
+    text-align: center;
+    margin-left: 5%;
+}
+@media screen and (max-width: 768px){
+    #fut1 {
+        width: 80%;
+        left: 6%;
+    }
+    #fut2 {
+        width: 80%;
+        left: 37%;
+    }
+    #fut3 {
+        width: 80%;
+        left: 70%;
+    }
+
+}
+@media screen and (max-width: 640px){
+    #fut1 {
+        width: 80%;
+        left: 1%;
+        
+    }
+    #fut2 {
+        width: 80%;
+        left: 35%;
+    }
+    #fut3 {
+        width: 80%;
+        left: 69%;
+    }
+
+}
+@media screen and (max-width: 480px){
+    #fut1 {
+        width: 80%;
+        left: 1%;
+        
+    }
+    #fut2 {
+        width: 80%;
+        left: 35%;
+    }
+    #fut3 {
+        width: 80%;
+        left: 69%;
+    }
+    #but1 {
+        width: 150px;
+        font-size: 0.75em;
+        height: 2em;
+    }
+    #but2 {
+        width: 150px;
+        font-size: 0.75em;
+        height: 2em;
+        
+    }
+    #but3 {
+        width: 150px;
+        font-size: 0.75em;
+        height: 2em;
+        
+    }
+    #div{
+        margin-right: 16%;
+    }
+
+}
+@media screen and (max-width: 300px){
+    #fut1 {
+        width: 30%;
+        left: 10%;
+        
+    }
+    #fut2 {
+        width: 80%;
+        left: 35%;
+    }
+    #fut3 {
+        width: 80%;
+        left:72%;
+    }
+    #but1 {
+        border-color: white;
+        width: 50%;
+        height: 2em;
+        
+    }
+    #but2 {
+        border-color: white;
+        width: 40%;
+        height: 2em;
+    }
+    #but3 {
+        border-color: white;
+        width: 40%;
+        height: 2em;
+    }
+    #div{
+        margin-right: 34%;
+    }
+    .header{
+        height: 90px;
+    }
+  
+    .switch{
+        height: 0.8em;
+    }
+
+}
